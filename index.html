@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <!--Google Font Link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Sora:wght@100..800&display=swap" rel="stylesheet">
     <!--Font awesome Link-->
     <script src="https://kit.fontawesome.com/89c3c98b54.js" crossorigin="anonymous"></script>
     <!--DaisuUI Link-->
@@ -23,11 +26,129 @@
           }
         }
       </script>
+      <style>
+        
+.sora-font {
+  font-family: "Sora", serif;
+}
+      </style>
 </head>
 <body>
-    <header></header>
+    <header class="bg-gradient-to-l from-[#EFEBE3] to-[#FFFFFF] mt-6  max-w-screen-xl mx-auto ">   
+      <!--Navbar-->
+       <nav>
+        <div class="navbar bg-base-100">
+            <div class="navbar-start">
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M4 6h16M4 12h8m-8 6h16" />
+                  </svg>
+                </div>
+                <ul
+                  tabindex="0"
+                  class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                  <li><a>Product</a></li>
+                  <li><a>Services</a></li>
+                  <li><a>Contact us</a></li>
+                </ul>
+              </div>
+              <img src="c2-assets/logo-header.png" alt="">
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal px-1">
+                <li><a>Product</a></li>
+                  <li><a>Services</a></li>
+                  <li><a>Contact us</a></li>
+              </ul>
+            </div>
+            <div class="navbar-end ">
+                <a class="btn btn-outline">Login</a> 
+              <a class="btn btn-success">Register</a>
+            </div>
+          </div>
+      </nav>
+    </header>
 
-    <main></main>
+    <main class="max-w-screen-xl mx-auto mt-9">
+        <!--Banner section-->
+       <section class="mb-36 bg-gradient-to-t from-[#EFEBE3] to-[#FFFFFF]">
+            <h1 class="text-5xl font-semibold text-center mb-8">Freshness <span class="text-[#179800] ">You Can
+                <br>   Count 
+             </span>On, Prices You’ll Love!
+            </h1>
+            <p class="text-[#111111] text-2xl font-medium text-center" >Shop your daily essentials at unbeatable prices. From fresh produce to pantry staples, we’ve got you covered every day!
+            </p>
+           <!--banner image-->
+           <div>
+            <img class="cover mt-8" src="c2-assets/hero-vegetables.png" alt="">
+           </div>
+       </section>
+
+       <!--Service section-->
+       <section class="mb-36">
+        <h1 class="text-[#179800] font-semibold text-4xl mb-12">Services</h1>
+        <div class="grid grid-cols-1 lg:grid-cols-3">
+            <!--card 1-->
+            <div class="card bg-[#EFEBE3] w-96 shadow-xl">
+                <figure class=" px-10 pt-10">
+                  <img
+                    src="c2-assets/service.png"
+                    alt="Shoes"
+                    class="bg-white rounded-full p-3 " />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title">24/7 Services</h2>
+                  <p>
+                    24/7 services refer to businesses or support systems that operate around the clock, providing assistance night.
+                  </p>
+                  
+                </div>
+              </div>
+              <!--card 2-->
+            <div class="card bg-[#EFEBE3] w-96 shadow-xl">
+                <figure class="px-10 pt-10">
+                  <img
+                    src="c2-assets/delivery.png"
+                    alt="Shoes"
+                    class="bg-white rounded-full p-3 " />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title">Fast Delivery</h2>
+                  <p>
+                    Fast delivery ensures that customers receive their orders quickly and efficiently, enhancing convenience and satisfaction.
+                  </p>
+                  
+                </div>
+              </div>
+              <!--card 3-->
+            <div class="card bg-[#EFEBE3] w-96 shadow-xl">
+                <figure class="px-10 pt-10">
+                  <img
+                    src="c2-assets/healthy.png"
+                    alt="Shoes"
+                    class="bg-white rounded-full p-3" />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title">Healthy Products </h2>
+                  <p>
+                    Healthy products are designed to promote well-being by offering nutritious, organic, and natural ingredients. 
+                  </p>
+                  
+                </div>
+              </div>
+        </div>
+       </section>
+    </main>
 
 
 </body>
