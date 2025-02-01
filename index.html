@@ -34,8 +34,9 @@
       </style>
 </head>
 <body>
-    <header class="bg-gradient-to-l from-[#EFEBE3] to-[#FFFFFF] mt-6 container mx-auto  ">   
-      <!--Navbar-->
+    <header class="bg-gradient-to-l from-[#EFEBE3] to-[#FFFFFF] mt-6  ">   
+      <div class="container mx-auto">
+        <!--Navbar-->
        <nav class="bg-gradient-to-l from-[#FFFFFF] to-[#EFEBE3]">
         <div class="navbar bg-base-100">
           <div class="navbar-start">
@@ -92,13 +93,15 @@
         <img class="cover mt-8 md:mx-auto" src="c2-assets/hero-vegetables.png" alt="">
        </div>
    </section>
+      </div>
     </header>
 
     <main class="bg-white">
 
        <!--Service section-->
-       <section class="container mx-auto mb-36">
-        <h2 class="font-semibold text-4xl mb-12 pl-3 text-[#179800]">Services</h2>
+       <section class=" mb-36">
+        <div class="container mx-auto">
+          <h2 class="font-semibold text-4xl mb-12 pl-3 text-[#179800]">Services</h2>
         <div class="grid md:grid-cols-3 gap-6 mt-5 px-4">
 
             <div class="bg-[#EFEBE3] p-6 rounded-lg shadow flex flex-col items-center text-center">
@@ -119,11 +122,11 @@
                 </p>
             </div>
         </div>
+        </div>
        </section>
 
        <!--Products section-->  
        <section class="py-10 px-5 bg-gradient-to-r from-[#EFEBE3] to-[#FFFFFF] ">
-       <div class="container mx-auto">
         <div class="container mx-auto">
           <h2 class="font-semibold text-4xl mb-12 pl-3 text-[#179800]">Popular Products</h2>
   
@@ -272,81 +275,79 @@
             </div>
         </div>
         </div>
-       </div>
+      
        </section>
 
        <!--FAQ section-->
        <section class="py-10 px-5 bg-gradient-to-r from-[#faf7eb] to-[#FFFFFF] border ">
         <div class="container mx-auto">
               <h1 class="font-semibold text-4xl mb-12 pl-3 text-[#179800]">Frequently Asked <span class="text-yellow-500">Question</span></h1>
-          </div>
-
-
-         <div class="hero ">
-            <div class="hero-content flex-col md:flex-row">
-              <img
-              src="c2-assets/faq.png"
-              class="max-w-sm rounded-lg shadow-2xl bg-white" />
-            
-
-              <div class="space-y-5">
-                <div class="collapse collapse-plus bg-white border">
-                  <input type="radio" name="my-accordion-3" checked="checked" />
-                  <div class="collapse-title text-xl font-medium">Are your vegetables organic?</div>
-                  <div class="collapse-content">
-                    <p>Yes, we offer both organic and conventional options. Check product details.</p>
-                  </div>
-                </div>
-                <div class="collapse collapse-plus bg-white border">
-                  <input type="radio" name="my-accordion-3" />
-                  <div class="collapse-title text-xl font-medium">What payment methods do you accept?</div>
-                  <div class="collapse-content">
-                    <p>We accept credit cards, debit cards, and digital wallets.</p>
-                  </div>
-                </div>
-                <div class="collapse collapse-plus bg-white border">
-                  <input type="radio" name="my-accordion-3" />
-                  <div class="collapse-title text-xl font-medium">What are the delivery charges?</div>
-                  <div class="collapse-content">
-                    <p>Delivery is free for orders over $50. Otherwise, a small fee applies.
-                    </p>
-                  </div>
-                </div>
-                <div class="collapse collapse-plus bg-white border">
-                  <input type="radio" name="my-accordion-3" />
-                  <div class="collapse-title text-xl font-medium">Is there a minimum order amount?</div>
-                  <div class="collapse-content">
-                    <p>Yes, the minimum order is $10.</p>
-                  </div>
-                </div>
-              </div>
-          </div>
-        </div>
-               
 
               
-       
+         <div class="hero ">
+          <div class="hero-content flex-col md:flex-row">
+            <img
+            src="c2-assets/faq.png"
+            class="max-w-sm rounded-lg shadow-2xl bg-white" />
+          
+
+            <div class="space-y-5">
+              <div class="collapse collapse-plus bg-white border">
+                <input type="radio" name="my-accordion-3" checked="checked" />
+                <div class="collapse-title text-xl font-medium">Are your vegetables organic?</div>
+                <div class="collapse-content">
+                  <p>Yes, we offer both organic and conventional options. Check product details.</p>
+                </div>
+              </div>
+              <div class="collapse collapse-plus bg-white border">
+                <input type="radio" name="my-accordion-3" />
+                <div class="collapse-title text-xl font-medium">What payment methods do you accept?</div>
+                <div class="collapse-content">
+                  <p>We accept credit cards, debit cards, and digital wallets.</p>
+                </div>
+              </div>
+              <div class="collapse collapse-plus bg-white border">
+                <input type="radio" name="my-accordion-3" />
+                <div class="collapse-title text-xl font-medium">What are the delivery charges?</div>
+                <div class="collapse-content">
+                  <p>Delivery is free for orders over $50. Otherwise, a small fee applies.
+                  </p>
+                </div>
+              </div>
+              <div class="collapse collapse-plus bg-white border">
+                <input type="radio" name="my-accordion-3" />
+                <div class="collapse-title text-xl font-medium">Is there a minimum order amount?</div>
+                <div class="collapse-content">
+                  <p>Yes, the minimum order is $10.</p>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+          </div>
+
+
        </section>
 
           
        <!-- Arrival & Offers Section -->
        <section class="relative pt-8 mb-80 bg-white">
-             <div class="container mx-auto">
-        <h2 class="font-semibold text-4xl mb-12 pl-3 text-[#179800]">Arrival & Offers</h2>
+        <div class="container mx-auto">
+                   <h2 class="font-semibold text-4xl mb-12 pl-3 text-[#179800]">Arrival & Offers</h2>
 
-        <div class="grid md:grid-cols-2 gap-4 mt-4 ">
+          <div class="grid md:grid-cols-2 gap-4 mt-4 ">
 
             <div class="bg-[#115414] rounded-lg flex gap-8">
-              <div class="ml-4 text-center">
-                <div>
-                  <img src="c2-assets/dawat-logo.png" alt="" class="my-7 cover">
-                </div>
+                  <div class="ml-4 text-center">
+                      <div>
+                          <img src="c2-assets/dawat-logo.png" alt="" class="my-7 cover">
+                      </div>
                     <p class="bg-green-800 text-white px-5 py-3 rounded-md inline-block">Cook Exotic Dishes</p>
                     <p class="text-white text-2xl mt-2">UP to <span class="font-bold">20% OFF</span></p>
-              </div>
-                <div>
-                  <img class="w-full pt-4 mx-auto" src="c2-assets/dawat-mock-up.png" alt="">
-                 </div>   
+                  </div>
+                  <div>
+                     <img class="w-full pt-4 mx-auto" src="c2-assets/dawat-mock-up.png" alt="">
+                  </div>   
             </div>
             
             <div class="bg-[#102861] rounded-lg flex gap-8 justify-around">
@@ -362,14 +363,14 @@
                   <img class="w-full pt-4 mx-auto" src="c2-assets/india-gate-mock-up.png" alt="">
                  </div>   
             </div>
+         </div>
         </div>
-             </div>
        </section>
 
 
        <!--Footer section-->
        <footer class="footer  relative bg-[#115414] pt-80 pb-4 px-4">
-        <div class="absolute -top-60 left-10 right-10 lg:left-96 ">
+        <div class="absolute -top-60 left-10 right-10 lg:left-80 ">
           
             <div class="bg-[#EFEBE3]   rounded-3xl grid grid-cols-1 md:grid-cols-2 px-5 lg:px-16 items-center gap-4 py-6">
               <div>
