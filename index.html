@@ -41,18 +41,9 @@
           <div class="navbar-start">
             <div class="dropdown">
               <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="h-5 w-5"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor">
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M4 6h16M4 12h8m-8 6h16" />
-                </svg>
+                <div>
+                  <img src="c2-assets/logo-footer.png" alt="">
+                </div>
               </div>
               <ul
                 tabindex="0"
@@ -132,30 +123,45 @@
 
        <!--Products section-->  
        <section class="py-10 px-5 bg-gradient-to-r from-[#EFEBE3] to-[#FFFFFF] ">
-      <div class="container mx-auto">
-        <h2 class="font-semibold text-4xl mb-12 pl-3 text-[#179800]">Popular Products</h2>
-
-        <div class="grid md:grid-cols-3 gap-6 mt-5">
-        
-         <div class="relative bg-gradient-to-tl from-lime-200 to-lime-500 p-6 rounded-lg flex flex-col ">
-              <div class="relative">
-                <h3 class="text-4xl font-bold text-white">30% off</h3>
-              <p class="text-black my-3">Discover a world of fresh treats.</p>
-              <button class="btn btn-success mt-4">Buy Now</button>
-              </div>
-              
-              <div class="absolute top-28">
-                <img class=" overflow-hiddenmx-auto pb-0" src="c2-assets/vegetable-offer.png" alt="">
-              </div>
-          </div>
-
-          <!--Crads-->
-          <div class="md:col-span-2 grid grid-cols-2 md:grid-cols-3 gap-4">
-            <!--card 1-->
-              <div class="card bg-white   shadow-md p-4">
+       <div class="container mx-auto">
+        <div class="container mx-auto">
+          <h2 class="font-semibold text-4xl mb-12 pl-3 text-[#179800]">Popular Products</h2>
+  
+          <div class="grid md:grid-cols-3 gap-6 mt-5">
+          
+           <div class="relative bg-gradient-to-tl from-lime-200 to-lime-500 rounded-lg flex flex-col ">
+                <div class="relative px-5 py-4">
+                  <h3 class="text-4xl font-bold text-white">30% off</h3>
+                <p class="text-black my-3">Discover a world of fresh treats.</p>
+                <button class="btn btn-success mt-4">Buy Now</button>
+                </div>
+                
+                <div class=" md:absolute md:bottom-0 md:right-0">
+                  <img class="object-cover overflow-hidden  mb-0" src="c2-assets/vegetable-offer.png" alt="">
+                </div>
+            </div>
+  
+            <!--Crads-->
+            <div class="md:col-span-2 grid grid-cols-2 md:grid-cols-3 gap-4">
+              <!--card 1-->
+                <div class="card bg-white   shadow-md p-4">
+                    <div class="flex items-center gap-2">
+                      <div class=" bg-black">
+                        <img class="w-20 bg-black " src="c2-assets/onion.pnj.png" alt="Onion">
+                      </div>
+                      <div>
+                        <i class="fa-solid fa-star text-yellow-500"></i>
+                        <h3 class="text-sm text-black font-bold">Onion 1 KG</h3>
+                      <p class="text-black">$39.99</p>
+                      </div>
+                    </div>
+                </div>
+                 
+                 <!--card 2-->
+                <div class="card bg-white   shadow-md p-4">
                   <div class="flex items-center gap-2">
                     <div class=" bg-black">
-                      <img class="w-20 bg-black " src="c2-assets/onion.pnj.png" alt="Onion">
+                      <img class="w-20 bg-black " src="c2-assets/tomato.jpg.jpg" alt="Onion">
                     </div>
                     <div>
                       <i class="fa-solid fa-star text-yellow-500"></i>
@@ -163,13 +169,13 @@
                     <p class="text-black">$39.99</p>
                     </div>
                   </div>
-              </div>
-               
-               <!--card 2-->
+                </div>
+  
+              <!--card 3-->
               <div class="card bg-white   shadow-md p-4">
                 <div class="flex items-center gap-2">
                   <div class=" bg-black">
-                    <img class="w-20 bg-black " src="c2-assets/tomato.jpg.jpg" alt="Onion">
+                    <img class="w-20 bg-black " src="c2-assets/potato.jpg.jpg" alt="Onion">
                   </div>
                   <div>
                     <i class="fa-solid fa-star text-yellow-500"></i>
@@ -178,12 +184,12 @@
                   </div>
                 </div>
               </div>
-
-            <!--card 3-->
-            <div class="card bg-white   shadow-md p-4">
+  
+             <!--card 4-->
+             <div class="card bg-white   shadow-md p-4">
               <div class="flex items-center gap-2">
                 <div class=" bg-black">
-                  <img class="w-20 bg-black " src="c2-assets/potato.jpg.jpg" alt="Onion">
+                  <img class="w-20 bg-black " src="c2-assets/tomato.jpg.jpg" alt="Onion">
                 </div>
                 <div>
                   <i class="fa-solid fa-star text-yellow-500"></i>
@@ -191,80 +197,10 @@
                 <p class="text-black">$39.99</p>
                 </div>
               </div>
-            </div>
-
-           <!--card 4-->
-           <div class="card bg-white   shadow-md p-4">
-            <div class="flex items-center gap-2">
-              <div class=" bg-black">
-                <img class="w-20 bg-black " src="c2-assets/tomato.jpg.jpg" alt="Onion">
-              </div>
-              <div>
-                <i class="fa-solid fa-star text-yellow-500"></i>
-                <h3 class="text-sm text-black font-bold">Onion 1 KG</h3>
-              <p class="text-black">$39.99</p>
-              </div>
-            </div>
-           </div>
-
-           <!--card 5-->
-             <div class="card bg-white   shadow-md p-4">
-          <div class="flex items-center gap-2">
-            <div class=" bg-black">
-              <img class="w-20 bg-black " src="c2-assets/onion.pnj.png" alt="Onion">
-            </div>
-            <div>
-              <i class="fa-solid fa-star text-yellow-500"></i>
-              <h3 class="text-sm text-black font-bold">Onion 1 KG</h3>
-            <p class="text-black">$39.99</p>
-            </div>
-          </div>
-            </div>
-
-           <!--card 6-->
-           <div class="card bg-white   shadow-md p-4">
-            <div class="flex items-center gap-2">
-              <div class=" bg-black">
-                <img class="w-20 bg-black " src="c2-assets/potato.jpg.jpg" alt="Onion">
-              </div>
-              <div>
-                <i class="fa-solid fa-star text-yellow-500"></i>
-                <h3 class="text-sm text-black font-bold">Onion 1 KG</h3>
-              <p class="text-black">$39.99</p>
-              </div>
-            </div>
-           </div>
-
-           <!--card 7-->
-           <div class="card bg-white   shadow-md p-4">
-            <div class="flex items-center gap-2">
-              <div class=" bg-black">
-                <img class="w-20 bg-black " src="c2-assets/potato.jpg.jpg" alt="Onion">
-              </div>
-              <div>
-                <i class="fa-solid fa-star text-yellow-500"></i>
-                <h3 class="text-sm text-black font-bold">Onion 1 KG</h3>
-              <p class="text-black">$39.99</p>
-              </div>
-            </div>
-           </div>
-
-           <!--card 8-->
-           <div class="card bg-white   shadow-md p-4">
-            <div class="flex items-center gap-2">
-              <div class=" bg-black">
-                <img class="w-20 bg-black " src="c2-assets/tomato.jpg.jpg" alt="Onion">
-              </div>
-              <div>
-                <i class="fa-solid fa-star text-yellow-500"></i>
-                <h3 class="text-sm text-black font-bold">Onion 1 KG</h3>
-              <p class="text-black">$39.99</p>
-              </div>
-            </div>
-           </div>
-
-           <!--card 9-->
-           <div class="card bg-white   shadow-md p-4">
+             </div>
+  
+             <!--card 5-->
+               <div class="card bg-white   shadow-md p-4">
             <div class="flex items-center gap-2">
               <div class=" bg-black">
                 <img class="w-20 bg-black " src="c2-assets/onion.pnj.png" alt="Onion">
@@ -275,17 +211,127 @@
               <p class="text-black">$39.99</p>
               </div>
             </div>
-           </div>
-    
+              </div>
+  
+             <!--card 6-->
+             <div class="card bg-white   shadow-md p-4">
+              <div class="flex items-center gap-2">
+                <div class=" bg-black">
+                  <img class="w-20 bg-black " src="c2-assets/potato.jpg.jpg" alt="Onion">
+                </div>
+                <div>
+                  <i class="fa-solid fa-star text-yellow-500"></i>
+                  <h3 class="text-sm text-black font-bold">Onion 1 KG</h3>
+                <p class="text-black">$39.99</p>
+                </div>
+              </div>
+             </div>
+  
+             <!--card 7-->
+             <div class="card bg-white   shadow-md p-4">
+              <div class="flex items-center gap-2">
+                <div class=" bg-black">
+                  <img class="w-20 bg-black " src="c2-assets/potato.jpg.jpg" alt="Onion">
+                </div>
+                <div>
+                  <i class="fa-solid fa-star text-yellow-500"></i>
+                  <h3 class="text-sm text-black font-bold">Onion 1 KG</h3>
+                <p class="text-black">$39.99</p>
+                </div>
+              </div>
+             </div>
+  
+             <!--card 8-->
+             <div class="card bg-white   shadow-md p-4">
+              <div class="flex items-center gap-2">
+                <div class=" bg-black">
+                  <img class="w-20 bg-black " src="c2-assets/tomato.jpg.jpg" alt="Onion">
+                </div>
+                <div>
+                  <i class="fa-solid fa-star text-yellow-500"></i>
+                  <h3 class="text-sm text-black font-bold">Onion 1 KG</h3>
+                <p class="text-black">$39.99</p>
+                </div>
+              </div>
+             </div>
+  
+             <!--card 9-->
+             <div class="card bg-white   shadow-md p-4">
+              <div class="flex items-center gap-2">
+                <div class=" bg-black">
+                  <img class="w-20 bg-black " src="c2-assets/onion.pnj.png" alt="Onion">
+                </div>
+                <div>
+                  <i class="fa-solid fa-star text-yellow-500"></i>
+                  <h3 class="text-sm text-black font-bold">Onion 1 KG</h3>
+                <p class="text-black">$39.99</p>
+                </div>
+              </div>
+             </div>
+      
+            </div>
+        </div>
+        </div>
+       </div>
+       </section>
+
+       <!--FAQ section-->
+       <section class="py-10 px-5 bg-gradient-to-r from-[#faf7eb] to-[#FFFFFF] border ">
+        <div class="container mx-auto">
+              <h1 class="font-semibold text-4xl mb-12 pl-3 text-[#179800]">Frequently Asked <span class="text-yellow-500">Question</span></h1>
           </div>
-      </div>
-      </div>
+
+
+         <div class="hero ">
+            <div class="hero-content flex-col md:flex-row">
+              <img
+              src="c2-assets/faq.png"
+              class="max-w-sm rounded-lg shadow-2xl bg-white" />
+            
+
+              <div class="space-y-5">
+                <div class="collapse collapse-plus bg-white border">
+                  <input type="radio" name="my-accordion-3" checked="checked" />
+                  <div class="collapse-title text-xl font-medium">Are your vegetables organic?</div>
+                  <div class="collapse-content">
+                    <p>Yes, we offer both organic and conventional options. Check product details.</p>
+                  </div>
+                </div>
+                <div class="collapse collapse-plus bg-white border">
+                  <input type="radio" name="my-accordion-3" />
+                  <div class="collapse-title text-xl font-medium">What payment methods do you accept?</div>
+                  <div class="collapse-content">
+                    <p>We accept credit cards, debit cards, and digital wallets.</p>
+                  </div>
+                </div>
+                <div class="collapse collapse-plus bg-white border">
+                  <input type="radio" name="my-accordion-3" />
+                  <div class="collapse-title text-xl font-medium">What are the delivery charges?</div>
+                  <div class="collapse-content">
+                    <p>Delivery is free for orders over $50. Otherwise, a small fee applies.
+                    </p>
+                  </div>
+                </div>
+                <div class="collapse collapse-plus bg-white border">
+                  <input type="radio" name="my-accordion-3" />
+                  <div class="collapse-title text-xl font-medium">Is there a minimum order amount?</div>
+                  <div class="collapse-content">
+                    <p>Yes, the minimum order is $10.</p>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+               
+
+              
+       
        </section>
 
           
-           <!-- Arrival & Offers Section -->
-           <section class="p-8">
-      <div class="container mx-auto">
+       <!-- Arrival & Offers Section -->
+       <section class="relative pt-8 mb-80 bg-white">
+             <div class="container mx-auto">
         <h2 class="font-semibold text-4xl mb-12 pl-3 text-[#179800]">Arrival & Offers</h2>
 
         <div class="grid md:grid-cols-2 gap-4 mt-4 ">
@@ -293,11 +339,10 @@
             <div class="bg-[#115414] rounded-lg flex gap-8">
               <div class="ml-4 text-center">
                 <div>
-                  <img src="c2-assets/dawat-logo.png" alt="" class="my-7">
+                  <img src="c2-assets/dawat-logo.png" alt="" class="my-7 cover">
                 </div>
                     <p class="bg-green-800 text-white px-5 py-3 rounded-md inline-block">Cook Exotic Dishes</p>
                     <p class="text-white text-2xl mt-2">UP to <span class="font-bold">20% OFF</span></p>
-                
               </div>
                 <div>
                   <img class="w-full pt-4 mx-auto" src="c2-assets/dawat-mock-up.png" alt="">
@@ -318,9 +363,65 @@
                  </div>   
             </div>
         </div>
-      </div>
-            </section>
-       
+             </div>
+       </section>
+
+
+       <!--Footer section-->
+       <footer class="footer  relative bg-[#115414] pt-80 pb-4 px-4">
+        <div class="absolute -top-60 left-10 right-10 lg:left-96 ">
+          
+            <div class="bg-[#EFEBE3]   rounded-3xl grid grid-cols-1 md:grid-cols-2 px-5 lg:px-16 items-center gap-4 py-6">
+              <div>
+                <img class="w-full mx-auto object-cover px-8" src="c2-assets/vegetable-busket.png" alt="">
+              </div>
+  
+               <div class="text-center lg:text-left">
+                <h3 class="text-black text-4xl font-semibold my-5">Get Grocery News!</h3>
+                  <p class="text-black mb-9">Exclusive training tips, tricks, product deals, and more.</p>
+                  <div class="mb-4 flex gap-2">
+                      <input type="email" placeholder="Enter email..." class="input input-bordered w-full md:w-auto">
+                      
+                  </div>
+                  <button class="btn bg-green-600 text-white mb-5">Subscribe</button>
+               </div>
+             </div>
+          
+        </div> 
+         <!--footer main-->
+        <div class="container mx-auto mt-40 mb-10 lg:mt-0 pl-6 ">
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-5 items-end ">
+            
+              <!--!1st-->
+            <div>
+              <img src="c2-assets/logo-footer.png" alt="">
+              <p class="text-white">Discover a world to treats toys, and essentials handpicked for your friends</p>
+           </div>
+           <!--2nd-->
+           <div>
+             <ul class="text-white lg:ml-36">
+               <li class="mb-2"><a  href="">Product</a></li>
+             <li class="mb-2"><a href="">Service</a></li>
+             <li class="mb-2"><a href="">Contact</a></li>
+             </ul>
+           </div>
+           <!--3rd-->
+           <div >
+             <h6 class="text-white mb-2">Follow US</h6>
+             <div>
+               <i class="fa-brands fa-facebook text-white"></i>
+               <i class="fa-brands fa-instagram text-white"></i>
+               <i class="fa-brands fa-linkedin text-white"></i>
+               <i class="fa-brands fa-youtube text-white"></i>
+             </div>
+           </div>
+            </div>
+         
+        </div>
+             
+        </footer>
+       </footer>
+      
       </main>
 
 
